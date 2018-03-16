@@ -31,7 +31,7 @@ I could have written a simple function that does exactly as requested, but I fig
 
 For this task I approached this with a TDD approach and defined failing specs for each of examples laid out in the given task.
 
-See [test/task_1_test.js](https://github.com/aaronrussell/gambit-tests/blob/master/test/task_1_test.js)
+See [test/task_2_test.js](https://github.com/aaronrussell/gambit-tests/blob/master/test/task_2_test.js)
 
 I then wrote a small function called `domPuke()` which accepts an array and made all the tests above pass.
 
