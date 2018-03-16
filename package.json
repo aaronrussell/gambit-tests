@@ -1,0 +1,15 @@
+{
+  "name": "gambit-tests",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=config/jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronrussell/gambit-tests.git"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
