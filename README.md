@@ -22,7 +22,7 @@ In 2011 I built a small colour utility library for mixing and adjusting colours.
 
 See [Github repo](https://github.com/aaronrussell/jcolour) and [documentation](http://aaronrussell.github.io/jcolour/).
 
-For this task I've discovered the mix function isn't 100% accurate. I tried mixing blue (#0000ff) with yellow (#00ffff) expecting green (#00ff00). In fact jColour returns a very slightly different hex (#007fff). I put this difference down to JavaScript float rounding issue. As I wrote this code in 2011, I'm not going to fix it now.
+For this task I've discovered the mix function isn't 100% accurate. I tried mixing blue (#0000ff) with yellow (#00ffff) expecting grey (#808080). In fact jColour returns a very slightly different hex (#7f7f7f). I put this difference down to JavaScript float rounding issue. As I wrote this code in 2011, I'm not going to fix it now.
 
 I could have written a simple function that does exactly as requested, but I figured you'd be more interested in seeing the full jColour library as it shows a much broader understanding of how colours can be manipulated with JavaScript (ignoring the fact there's a rounding error in there somewhere).
 
